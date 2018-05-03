@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.99bill"
+		module="ifs-task-batch"
+		revision="working@raozt-PC"
+		conf="compile"
+		confs="default, compile, zip, test"
+		date="20171218204235"/>
+	<dependencies>
+		<module organisation="xerces" name="xerces">
+			<revision name="2.6.2" status="release" pubdate="20121114153130" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="83">
+				<metadata-artifact status="no" details="" size="386" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\xerces\xerces\ivy-2.6.2.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\xerces\xerces\ivy-2.6.2.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/xerces/xerces/ivys/ivy-2.6.2.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="xerces" type="jar" ext="jar" status="no" details="" size="1010806" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\xerces\xerces\jars\xerces-2.6.2.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/xerces/xerces/jars/xerces-2.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xmlpull" name="xpp3">
+			<revision name="1.1.3.4.0" status="release" pubdate="20121121152728" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="81">
+				<metadata-artifact status="no" details="" size="391" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.xmlpull\xpp3\ivy-1.1.3.4.0.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.xmlpull\xpp3\ivy-1.1.3.4.0.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.xmlpull/xpp3/ivys/ivy-1.1.3.4.0.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.1.3.4.0" rev-constraint-default="1.1.3.4.0" rev-constraint-dynamic="1.1.3.4.0" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="xpp3" type="jar" ext="jar" status="no" details="" size="119888" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.xmlpull\xpp3\jars\xpp3-1.1.3.4.0.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.xmlpull/xpp3/jars/xpp3-1.1.3.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-webmvc">
+			<revision name="3.0.5.RELEASE" status="release" pubdate="20121114161953" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="80">
+				<metadata-artifact status="no" details="" size="421" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-webmvc\ivy-3.0.5.RELEASE.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-webmvc\ivy-3.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.springframework/spring-webmvc/ivys/ivy-3.0.5.RELEASE.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.0.5.RELEASE" rev-constraint-default="3.0.5.RELEASE" rev-constraint-dynamic="3.0.5.RELEASE" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="spring-webmvc" type="jar" ext="jar" status="no" details="" size="418977" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-webmvc\jars\spring-webmvc-3.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.springframework/spring-webmvc/jars/spring-webmvc-3.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-web">
+			<revision name="3.0.5.RELEASE" status="release" pubdate="20121114161938" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="79">
+				<metadata-artifact status="no" details="" size="415" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-web\ivy-3.0.5.RELEASE.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-web\ivy-3.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.springframework/spring-web/ivys/ivy-3.0.5.RELEASE.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.0.5.RELEASE" rev-constraint-default="3.0.5.RELEASE" rev-constraint-dynamic="3.0.5.RELEASE" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="spring-web" type="jar" ext="jar" status="no" details="" size="395587" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-web\jars\spring-web-3.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.springframework/spring-web/jars/spring-web-3.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-test">
+			<revision name="3.0.5.RELEASE" status="release" pubdate="20121114161915" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="77">
+				<metadata-artifact status="no" details="" size="417" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-test\ivy-3.0.5.RELEASE.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-test\ivy-3.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.springframework/spring-test/ivys/ivy-3.0.5.RELEASE.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.0.5.RELEASE" rev-constraint-default="3.0.5.RELEASE" rev-constraint-dynamic="3.0.5.RELEASE" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="spring-test" type="jar" ext="jar" status="no" details="" size="205278" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-test\jars\spring-test-3.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.springframework/spring-test/jars/spring-test-3.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spring" name="spring-jms">
+			<revision name="2.5.6" status="release" pubdate="20130114143600" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="68">
+				<metadata-artifact status="no" details="" size="398" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.spring\spring-jms\ivy-2.5.6.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.spring\spring-jms\ivy-2.5.6.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.spring/spring-jms/ivys/ivy-2.5.6.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="2.5.6" rev-constraint-default="2.5.6" rev-constraint-dynamic="2.5.6" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="spring-jms" type="jar" ext="jar" status="no" details="" size="195254" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.spring\spring-jms\jars\spring-jms-2.5.6.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.spring/spring-jms/jars/spring-jms-2.5.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.quartz" name="quartz">
+			<revision name="1.6.0.1" status="release" pubdate="20130913180113" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="64">
+				<metadata-artifact status="no" details="" size="392" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.quartz\quartz\ivy-1.6.0.1.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.quartz\quartz\ivy-1.6.0.1.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.quartz/quartz/ivys/ivy-1.6.0.1.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.6.0.1" rev-constraint-default="1.6.0.1" rev-constraint-dynamic="1.6.0.1" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="quartz" type="jar" ext="jar" status="no" details="" size="421601" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.quartz\quartz\jars\quartz-1.6.0.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.quartz/quartz/jars/quartz-1.6.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objectweb" name="bsh">
+			<revision name="2.0b4" status="release" pubdate="20130913180038" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="63">
+				<metadata-artifact status="no" details="" size="387" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.objectweb\bsh\ivy-2.0b4.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.objectweb\bsh\ivy-2.0b4.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.objectweb/bsh/ivys/ivy-2.0b4.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="2.0b4" rev-constraint-default="2.0b4" rev-constraint-dynamic="2.0b4" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="bsh" type="jar" ext="jar" status="no" details="" size="281694" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.objectweb\bsh\jars\bsh-2.0b4.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.objectweb/bsh/jars/bsh-2.0b4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jxl" name="jxl">
+			<revision name="2.6.2" status="release" pubdate="20130913180109" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="62">
+				<metadata-artifact status="no" details="" size="381" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.jxl\jxl\ivy-2.6.2.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.jxl\jxl\ivy-2.6.2.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.jxl/jxl/ivys/ivy-2.6.2.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="jxl" type="jar" ext="jar" status="no" details="" size="685457" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.jxl\jxl\jars\jxl-2.6.2.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.jxl/jxl/jars/jxl-2.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda.time" name="joda-time">
+			<revision name="2.4" status="release" pubdate="20160308171718" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="61">
+				<metadata-artifact status="no" details="" size="423" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.joda.time\joda-time\ivy-2.4.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.joda.time\joda-time\ivys\ivy-2.4.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="586201" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.joda.time\joda-time\jars\joda-time-2.4.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.joda.time/joda-time/jars/joda-time-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jdom" name="jdom">
+			<revision name="1.1" status="release" pubdate="20150129155750" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="60">
+				<metadata-artifact status="no" details="" size="408" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.jdom\jdom\ivy-1.1.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.jdom\jdom\ivys\ivy-1.1.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="jdom" type="jar" ext="jar" status="no" details="" size="153115" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.jdom\jdom\jars\jdom-1.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.jdom/jdom/jars/jdom-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.aspectj" name="aspectjweaver">
+			<revision name="1.6.5" status="release" pubdate="20121114160217" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="54">
+				<metadata-artifact status="no" details="" size="405" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.aspectj\aspectjweaver\ivy-1.6.5.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.aspectj\aspectjweaver\ivy-1.6.5.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.aspectj/aspectjweaver/ivys/ivy-1.6.5.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.6.5" rev-constraint-default="1.6.5" rev-constraint-dynamic="1.6.5" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="aspectjweaver" type="jar" ext="jar" status="no" details="" size="1595482" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.aspectj\aspectjweaver\jars\aspectjweaver-1.6.5.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.aspectj/aspectjweaver/jars/aspectjweaver-1.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.aspectj" name="aspectjtools">
+			<revision name="1.6.8" status="release" pubdate="20121114160206" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="53">
+				<metadata-artifact status="no" details="" size="403" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.aspectj\aspectjtools\ivy-1.6.8.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.aspectj\aspectjtools\ivy-1.6.8.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.aspectj/aspectjtools/ivys/ivy-1.6.8.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.6.8" rev-constraint-default="1.6.8" rev-constraint-dynamic="1.6.8" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="aspectjtools" type="jar" ext="jar" status="no" details="" size="8802159" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.aspectj\aspectjtools\jars\aspectjtools-1.6.8.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.aspectj/aspectjtools/jars/aspectjtools-1.6.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.aspectj" name="aspectjrt">
+			<revision name="1.6.8" status="release" pubdate="20121114160201" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="52">
+				<metadata-artifact status="no" details="" size="397" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.aspectj\aspectjrt\ivy-1.6.8.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.aspectj\aspectjrt\ivy-1.6.8.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.aspectj/aspectjrt/ivys/ivy-1.6.8.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.6.8" rev-constraint-default="1.6.8" rev-constraint-dynamic="1.6.8" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="aspectjrt" type="jar" ext="jar" status="no" details="" size="116039" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.aspectj\aspectjrt\jars\aspectjrt-1.6.8.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.aspectj/aspectjrt/jars/aspectjrt-1.6.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.shiro" name="shiro-all">
+			<revision name="1.2.2" status="release" pubdate="20160328150509" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="51">
+				<metadata-artifact status="no" details="" size="428" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache.shiro\shiro-all\ivy-1.2.2.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache.shiro\shiro-all\ivys\ivy-1.2.2.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="shiro-all" type="jar" ext="jar" status="no" details="" size="535619" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache.shiro\shiro-all\jars\shiro-all-1.2.2.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache.shiro/shiro-all/jars/shiro-all-1.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="xml-apis">
+			<revision name="1.3.02" status="release" pubdate="20130913180122" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="50">
+				<metadata-artifact status="no" details="" size="395" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\xml-apis\ivy-1.3.02.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\xml-apis\ivy-1.3.02.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/xml-apis/ivys/ivy-1.3.02.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.3.02" rev-constraint-default="1.3.02" rev-constraint-dynamic="1.3.02" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="xml-apis" type="jar" ext="jar" status="no" details="" size="194205" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\xml-apis\jars\xml-apis-1.3.02.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/xml-apis/jars/xml-apis-1.3.02.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="xalan">
+			<revision name="2.6.0" status="release" pubdate="20130913180121" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="49">
+				<metadata-artifact status="no" details="" size="388" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\xalan\ivy-2.6.0.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\xalan\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/xalan/ivys/ivy-2.6.0.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="xalan" type="jar" ext="jar" status="no" details="" size="3149655" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\xalan\jars\xalan-2.6.0.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/xalan/jars/xalan-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="standard">
+			<revision name="1.1.2" status="release" pubdate="20121121152534" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="48">
+				<metadata-artifact status="no" details="" size="394" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\standard\ivy-1.1.2.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\standard\ivy-1.1.2.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/standard/ivys/ivy-1.1.2.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="standard" type="jar" ext="jar" status="no" details="" size="393259" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\standard\jars\standard-1.1.2.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/standard/jars/standard-1.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="poi">
+			<revision name="3.7" status="release" pubdate="20130913180112" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="47">
+				<metadata-artifact status="no" details="" size="382" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\poi\ivy-3.7.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\poi\ivy-3.7.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/poi/ivys/ivy-3.7.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.7" rev-constraint-default="3.7" rev-constraint-dynamic="3.7" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="poi" type="jar" ext="jar" status="no" details="" size="1675036" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\poi\jars\poi-3.7.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/poi/jars/poi-3.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="oro">
+			<revision name="2.0.8" status="release" pubdate="20121121152507" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="46">
+				<metadata-artifact status="no" details="" size="384" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\oro\ivy-2.0.8.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\oro\ivy-2.0.8.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/oro/ivys/ivy-2.0.8.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="2.0.8" rev-constraint-default="2.0.8" rev-constraint-dynamic="2.0.8" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="oro" type="jar" ext="jar" status="no" details="" size="65261" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\oro\jars\oro-2.0.8.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/oro/jars/oro-2.0.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="httpcore">
+			<revision name="4.2.1" status="release" pubdate="20130913180100" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="44">
+				<metadata-artifact status="no" details="" size="394" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\httpcore\ivy-4.2.1.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\httpcore\ivy-4.2.1.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/httpcore/ivys/ivy-4.2.1.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="4.2.1" rev-constraint-default="4.2.1" rev-constraint-dynamic="4.2.1" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="223374" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\httpcore\jars\httpcore-4.2.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/httpcore/jars/httpcore-4.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="httpclient">
+			<revision name="4.2.1" status="release" pubdate="20130913180059" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="43">
+				<metadata-artifact status="no" details="" size="398" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\httpclient\ivy-4.2.1.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\httpclient\ivy-4.2.1.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/httpclient/ivys/ivy-4.2.1.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="4.2.1" rev-constraint-default="4.2.1" rev-constraint-dynamic="4.2.1" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="427021" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\httpclient\jars\httpclient-4.2.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/httpclient/jars/httpclient-4.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-pool">
+			<revision name="1.5" status="release" pubdate="20121121152509" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="42">
+				<metadata-artifact status="no" details="" size="400" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-pool\ivy-1.5.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-pool\ivy-1.5.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/commons-pool/ivys/ivy-1.5.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="commons-pool" type="jar" ext="jar" status="no" details="" size="95923" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-pool\jars\commons-pool-1.5.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/commons-pool/jars/commons-pool-1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-net">
+			<revision name="3.0.1" status="release" pubdate="20121121152506" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="41">
+				<metadata-artifact status="no" details="" size="400" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-net\ivy-3.0.1.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-net\ivy-3.0.1.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/commons-net/ivys/ivy-3.0.1.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="commons-net" type="jar" ext="jar" status="no" details="" size="269014" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-net\jars\commons-net-3.0.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/commons-net/jars/commons-net-3.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-logging">
+			<revision name="1.1.1.2" status="release" pubdate="20130913180046" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="40">
+				<metadata-artifact status="no" details="" size="410" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-logging\ivy-1.1.1.2.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-logging\ivy-1.1.1.2.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/commons-logging/ivys/ivy-1.1.1.2.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.1.1.2" rev-constraint-default="1.1.1.2" rev-constraint-dynamic="1.1.1.2" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="60841" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-logging\jars\commons-logging-1.1.1.2.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/commons-logging/jars/commons-logging-1.1.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20130913180045" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="39">
+				<metadata-artifact status="no" details="" size="400" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-lang\ivy-2.6.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-lang\ivy-2.6.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/commons-lang/ivys/ivy-2.6.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="284220" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-lang\jars\commons-lang-2.6.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/commons-lang/jars/commons-lang-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-io">
+			<revision name="1.4" status="release" pubdate="20121121152506" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="37">
+				<metadata-artifact status="no" details="" size="396" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-io\ivy-1.4.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-io\ivy-1.4.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/commons-io/ivys/ivy-1.4.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="109043" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-io\jars\commons-io-1.4.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/commons-io/jars/commons-io-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-dbcp">
+			<revision name="1.2.2" status="release" pubdate="20121121152508" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="35">
+				<metadata-artifact status="no" details="" size="402" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-dbcp\ivy-1.2.2.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-dbcp\ivy-1.2.2.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/commons-dbcp/ivys/ivy-1.2.2.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="commons-dbcp" type="jar" ext="jar" status="no" details="" size="121757" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-dbcp\jars\commons-dbcp-1.2.2.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/commons-dbcp/jars/commons-dbcp-1.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-codec">
+			<revision name="1.6" status="release" pubdate="20130913180043" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="33">
+				<metadata-artifact status="no" details="" size="402" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-codec\ivy-1.6.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-codec\ivy-1.6.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/commons-codec/ivys/ivy-1.6.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="232771" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-codec\jars\commons-codec-1.6.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/commons-codec/jars/commons-codec-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-beanutils-bean-collections">
+			<revision name="1.8.2" status="release" pubdate="20121121152509" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="32">
+				<metadata-artifact status="no" details="" size="446" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-beanutils-bean-collections\ivy-1.8.2.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-beanutils-bean-collections\ivy-1.8.2.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/commons-beanutils-bean-collections/ivys/ivy-1.8.2.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="commons-beanutils-bean-collections" type="jar" ext="jar" status="no" details="" size="26576" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-beanutils-bean-collections\jars\commons-beanutils-bean-collections-1.8.2.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/commons-beanutils-bean-collections/jars/commons-beanutils-bean-collections-1.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="axis">
+			<revision name="1.4" status="release" pubdate="20121121152444" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="30">
+				<metadata-artifact status="no" details="" size="384" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\axis\ivy-1.4.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\axis\ivy-1.4.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/axis/ivys/ivy-1.4.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="axis" type="jar" ext="jar" status="no" details="" size="1599570" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\axis\jars\axis-1.4.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/axis/jars/axis-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf" name="morph">
+			<revision name="1.1.1" status="release" pubdate="20121121152426" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="29">
+				<metadata-artifact status="no" details="" size="384" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\net.sf\morph\ivy-1.1.1.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\net.sf\morph\ivy-1.1.1.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/net.sf/morph/ivys/ivy-1.1.1.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="morph" type="jar" ext="jar" status="no" details="" size="292617" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\net.sf\morph\jars\morph-1.1.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/net.sf/morph/jars/morph-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="jstl">
+			<revision name="1.2" status="release" pubdate="20121114154454" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="26">
+				<metadata-artifact status="no" details="" size="387" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\javax.servlet\jstl\ivy-1.2.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\javax.servlet\jstl\ivy-1.2.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/javax.servlet/jstl/ivys/ivy-1.2.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="jstl" type="jar" ext="jar" status="no" details="" size="414240" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\javax.servlet\jstl\jars\jstl-1.2.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/javax.servlet/jstl/jars/jstl-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="j2ee" name="saaj">
+			<revision name="1.2" status="release" pubdate="20121121152418" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="24">
+				<metadata-artifact status="no" details="" size="378" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\j2ee\saaj\ivy-1.2.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\j2ee\saaj\ivy-1.2.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/j2ee/saaj/ivys/ivy-1.2.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="saaj" type="jar" ext="jar" status="no" details="" size="18978" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\j2ee\saaj\jars\saaj-1.2.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/j2ee/saaj/jars/saaj-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="j2ee" name="jaxrpc">
+			<revision name="1.1" status="release" pubdate="20121121152416" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="21">
+				<metadata-artifact status="no" details="" size="382" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\j2ee\jaxrpc\ivy-1.1.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\j2ee\jaxrpc\ivy-1.1.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/j2ee/jaxrpc/ivys/ivy-1.1.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="jaxrpc" type="jar" ext="jar" status="no" details="" size="35120" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\j2ee\jaxrpc\jars\jaxrpc-1.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/j2ee/jaxrpc/jars/jaxrpc-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="j2ee" name="fscontext">
+			<revision name="6.0" status="release" pubdate="20121121152414" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="20">
+				<metadata-artifact status="no" details="" size="388" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\j2ee\fscontext\ivy-6.0.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\j2ee\fscontext\ivy-6.0.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/j2ee/fscontext/ivys/ivy-6.0.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="6.0" rev-constraint-default="6.0" rev-constraint-dynamic="6.0" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="fscontext" type="jar" ext="jar" status="no" details="" size="22769" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\j2ee\fscontext\jars\fscontext-6.0.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/j2ee/fscontext/jars/fscontext-6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks" name="xstream">
+			<revision name="1.4.6" status="release" pubdate="20150129155746" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="18">
+				<metadata-artifact status="no" details="" size="424" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.thoughtworks\xstream\ivy-1.4.6.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.thoughtworks\xstream\ivys\ivy-1.4.6.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.4.6" rev-constraint-default="1.4.6" rev-constraint-dynamic="1.4.6" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="xstream" type="jar" ext="jar" status="no" details="" size="513765" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.thoughtworks\xstream\jars\xstream-1.4.6.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/com.thoughtworks/xstream/jars/xstream-1.4.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun" name="javaee-api">
+			<revision name="5" status="release" pubdate="20121121152605" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="17">
+				<metadata-artifact status="no" details="" size="391" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.sun\javaee-api\ivy-5.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.sun\javaee-api\ivy-5.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/com.sun/javaee-api/ivys/ivy-5.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="5" rev-constraint-default="5" rev-constraint-dynamic="5" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="javaee-api" type="jar" ext="jar" status="no" details="" size="1062435" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.sun\javaee-api\jars\javaee-api-5.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/com.sun/javaee-api/jars/javaee-api-5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.opensymphony" name="sitemesh">
+			<revision name="3.0" status="release" pubdate="20130913180114" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="16">
+				<metadata-artifact status="no" details="" size="398" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.opensymphony\sitemesh\ivy-3.0.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.opensymphony\sitemesh\ivy-3.0.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/com.opensymphony/sitemesh/ivys/ivy-3.0.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="sitemesh" type="jar" ext="jar" status="no" details="" size="138946" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.opensymphony\sitemesh\jars\sitemesh-3.0.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/com.opensymphony/sitemesh/jars/sitemesh-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.ibm" name="wsdl4j">
+			<revision name="1.5.1" status="release" pubdate="20121121152408" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="15">
+				<metadata-artifact status="no" details="" size="387" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.ibm\wsdl4j\ivy-1.5.1.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.ibm\wsdl4j\ivy-1.5.1.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/com.ibm/wsdl4j/ivys/ivy-1.5.1.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.5.1" rev-constraint-default="1.5.1" rev-constraint-dynamic="1.5.1" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="wsdl4j" type="jar" ext="jar" status="no" details="" size="126771" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.ibm\wsdl4j\jars\wsdl4j-1.5.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/com.ibm/wsdl4j/jars/wsdl4j-1.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google" name="guava">
+			<revision name="17.0" status="release" pubdate="20150914142423" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="14">
+				<metadata-artifact status="no" details="" size="413" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.google\guava\ivy-17.0.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.google\guava\ivys\ivy-17.0.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="17.0" rev-constraint-default="17.0" rev-constraint-dynamic="17.0" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="guava" type="jar" ext="jar" status="no" details="" size="2243036" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.google\guava\jars\guava-17.0.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/com.google/guava/jars/guava-17.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="steel-utils">
+			<revision name="2.3.0" status="release" pubdate="20121121155152" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="12">
+				<metadata-artifact status="no" details="" size="400" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\steel-utils\ivy-2.3.0.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\steel-utils\ivy-2.3.0.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/com.99bill/steel-utils/ivys/ivy-2.3.0.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="steel-utils" type="jar" ext="jar" status="no" details="" size="71287" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\steel-utils\jars\steel-utils-2.3.0.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/com.99bill/steel-utils/jars/steel-utils-2.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="ifs-task-dal">
+			<revision name="1.0.0.2" status="integration" pubdate="20160315163247" resolver="bill99_repository_buildbuffer" artresolver="bill99_repository_buildbuffer" downloaded="false" searched="false" default="false" conf="default" position="7">
+				<metadata-artifact status="no" details="" size="3582" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\ifs-task-dal\ivy-1.0.0.2.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\ifs-task-dal\ivy-1.0.0.2.xml.original" origin-is-local="false" origin-location="http://192.168.52.93/com.99bill/ifs-task-dal/ivys/ivy-1.0.0.2.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.0.0.2" rev-constraint-default="1.0.0.2" rev-constraint-dynamic="1.0.0.2" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="ifs-task-dal" type="jar" ext="jar" status="no" details="" size="15206" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\ifs-task-dal\jars\ifs-task-dal-1.0.0.2.jar">
+						<origin-location is-local="false" location="http://192.168.52.93/com.99bill/ifs-task-dal/jars/ifs-task-dal-1.0.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="unknown" name="aopalliance">
+			<revision name="1.0" status="release" pubdate="20121121152754" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="82">
+				<metadata-artifact status="no" details="" size="395" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\unknown\aopalliance\ivy-1.0.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\unknown\aopalliance\ivy-1.0.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/unknown/aopalliance/ivys/ivy-1.0.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="aopalliance" type="jar" ext="jar" status="no" details="" size="4467" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\unknown\aopalliance\jars\aopalliance-1.0.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/unknown/aopalliance/jars/aopalliance-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-tx">
+			<revision name="3.0.5.RELEASE" status="release" pubdate="20121114161924" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="78">
+				<metadata-artifact status="no" details="" size="413" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-tx\ivy-3.0.5.RELEASE.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-tx\ivy-3.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.springframework/spring-tx/ivys/ivy-3.0.5.RELEASE.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.0.5.RELEASE" rev-constraint-default="3.0.5.RELEASE" rev-constraint-dynamic="3.0.5.RELEASE" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="spring-tx" type="jar" ext="jar" status="no" details="" size="231922" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-tx\jars\spring-tx-3.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.springframework/spring-tx/jars/spring-tx-3.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-expression">
+			<revision name="3.0.5.RELEASE" status="release" pubdate="20121114161832" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="76">
+				<metadata-artifact status="no" details="" size="429" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-expression\ivy-3.0.5.RELEASE.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-expression\ivy-3.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.springframework/spring-expression/ivys/ivy-3.0.5.RELEASE.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.0.5.RELEASE" rev-constraint-default="3.0.5.RELEASE" rev-constraint-dynamic="3.0.5.RELEASE" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="spring-expression" type="jar" ext="jar" status="no" details="" size="169752" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-expression\jars\spring-expression-3.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.springframework/spring-expression/jars/spring-expression-3.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-core">
+			<revision name="3.0.5.RELEASE" status="release" pubdate="20121114161823" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="75">
+				<metadata-artifact status="no" details="" size="417" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-core\ivy-3.0.5.RELEASE.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-core\ivy-3.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.springframework/spring-core/ivys/ivy-3.0.5.RELEASE.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.0.5.RELEASE" rev-constraint-default="3.0.5.RELEASE" rev-constraint-dynamic="3.0.5.RELEASE" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="spring-core" type="jar" ext="jar" status="no" details="" size="382442" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-core\jars\spring-core-3.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.springframework/spring-core/jars/spring-core-3.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context-support">
+			<revision name="3.0.5.RELEASE" status="release" pubdate="20121114161811" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="74">
+				<metadata-artifact status="no" details="" size="439" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-context-support\ivy-3.0.5.RELEASE.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-context-support\ivy-3.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.springframework/spring-context-support/ivys/ivy-3.0.5.RELEASE.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.0.5.RELEASE" rev-constraint-default="3.0.5.RELEASE" rev-constraint-dynamic="3.0.5.RELEASE" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="spring-context-support" type="jar" ext="jar" status="no" details="" size="100870" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-context-support\jars\spring-context-support-3.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.springframework/spring-context-support/jars/spring-context-support-3.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context">
+			<revision name="3.0.5.RELEASE" status="release" pubdate="20121114161802" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="73">
+				<metadata-artifact status="no" details="" size="423" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-context\ivy-3.0.5.RELEASE.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-context\ivy-3.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.springframework/spring-context/ivys/ivy-3.0.5.RELEASE.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.0.5.RELEASE" rev-constraint-default="3.0.5.RELEASE" rev-constraint-dynamic="3.0.5.RELEASE" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="spring-context" type="jar" ext="jar" status="no" details="" size="668861" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-context\jars\spring-context-3.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.springframework/spring-context/jars/spring-context-3.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-beans">
+			<revision name="3.0.5.RELEASE" status="release" pubdate="20121114161751" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="72">
+				<metadata-artifact status="no" details="" size="419" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-beans\ivy-3.0.5.RELEASE.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-beans\ivy-3.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.springframework/spring-beans/ivys/ivy-3.0.5.RELEASE.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.0.5.RELEASE" rev-constraint-default="3.0.5.RELEASE" rev-constraint-dynamic="3.0.5.RELEASE" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="spring-beans" type="jar" ext="jar" status="no" details="" size="555410" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-beans\jars\spring-beans-3.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.springframework/spring-beans/jars/spring-beans-3.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-asm">
+			<revision name="3.0.5.RELEASE" status="release" pubdate="20121114161739" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="71">
+				<metadata-artifact status="no" details="" size="415" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-asm\ivy-3.0.5.RELEASE.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-asm\ivy-3.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.springframework/spring-asm/ivys/ivy-3.0.5.RELEASE.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.0.5.RELEASE" rev-constraint-default="3.0.5.RELEASE" rev-constraint-dynamic="3.0.5.RELEASE" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="spring-asm" type="jar" ext="jar" status="no" details="" size="53082" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-asm\jars\spring-asm-3.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.springframework/spring-asm/jars/spring-asm-3.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-aop">
+			<revision name="3.0.5.RELEASE" status="release" pubdate="20121114161733" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="70">
+				<metadata-artifact status="no" details="" size="415" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-aop\ivy-3.0.5.RELEASE.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-aop\ivy-3.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.springframework/spring-aop/ivys/ivy-3.0.5.RELEASE.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.0.5.RELEASE" rev-constraint-default="3.0.5.RELEASE" rev-constraint-dynamic="3.0.5.RELEASE" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="spring-aop" type="jar" ext="jar" status="no" details="" size="321190" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.springframework\spring-aop\jars\spring-aop-3.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.springframework/spring-aop/jars/spring-aop-3.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spring" name="spring-orm">
+			<revision name="3.0.5.RELEASE" status="release" pubdate="20130913180116" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="69">
+				<metadata-artifact status="no" details="" size="406" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.spring\spring-orm\ivy-3.0.5.RELEASE.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.spring\spring-orm\ivy-3.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.spring/spring-orm/ivys/ivy-3.0.5.RELEASE.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.0.5.RELEASE" rev-constraint-default="3.0.5.RELEASE" rev-constraint-dynamic="3.0.5.RELEASE" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="spring-orm" type="jar" ext="jar" status="no" details="" size="334327" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.spring\spring-orm\jars\spring-orm-3.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.spring/spring-orm/jars/spring-orm-3.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spring" name="spring-jdbc">
+			<revision name="3.0.5.RELEASE" status="release" pubdate="20130913180116" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="67">
+				<metadata-artifact status="no" details="" size="408" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.spring\spring-jdbc\ivy-3.0.5.RELEASE.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.spring\spring-jdbc\ivy-3.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.spring/spring-jdbc/ivys/ivy-3.0.5.RELEASE.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.0.5.RELEASE" rev-constraint-default="3.0.5.RELEASE" rev-constraint-dynamic="3.0.5.RELEASE" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="spring-jdbc" type="jar" ext="jar" status="no" details="" size="385712" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.spring\spring-jdbc\jars\spring-jdbc-3.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.spring/spring-jdbc/jars/spring-jdbc-3.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate" name="hibernate-core">
+			<revision name="3.3.2.GA" status="release" pubdate="20121121152834" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="59">
+				<metadata-artifact status="no" details="" size="412" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.hibernate\hibernate-core\ivy-3.3.2.GA.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.hibernate\hibernate-core\ivy-3.3.2.GA.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.hibernate/hibernate-core/ivys/ivy-3.3.2.GA.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.3.2.GA" rev-constraint-default="3.3.2.GA" rev-constraint-dynamic="3.3.2.GA" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="hibernate-core" type="jar" ext="jar" status="no" details="" size="2309955" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.hibernate\hibernate-core\jars\hibernate-core-3.3.2.GA.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.hibernate/hibernate-core/jars/hibernate-core-3.3.2.GA.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate" name="hibernate-commons-annotations">
+			<revision name="3.3.0.ga" status="release" pubdate="20121121152843" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="58">
+				<metadata-artifact status="no" details="" size="442" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.hibernate\hibernate-commons-annotations\ivy-3.3.0.ga.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.hibernate\hibernate-commons-annotations\ivy-3.3.0.ga.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.hibernate/hibernate-commons-annotations/ivys/ivy-3.3.0.ga.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.3.0.ga" rev-constraint-default="3.3.0.ga" rev-constraint-dynamic="3.3.0.ga" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="hibernate-commons-annotations" type="jar" ext="jar" status="no" details="" size="66426" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.hibernate\hibernate-commons-annotations\jars\hibernate-commons-annotations-3.3.0.ga.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.hibernate/hibernate-commons-annotations/jars/hibernate-commons-annotations-3.3.0.ga.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate" name="hibernate-annotations">
+			<revision name="3.3.0.ga" status="release" pubdate="20121121152708" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="57">
+				<metadata-artifact status="no" details="" size="426" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.hibernate\hibernate-annotations\ivy-3.3.0.ga.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.hibernate\hibernate-annotations\ivy-3.3.0.ga.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.hibernate/hibernate-annotations/ivys/ivy-3.3.0.ga.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.3.0.ga" rev-constraint-default="3.3.0.ga" rev-constraint-dynamic="3.3.0.ga" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="hibernate-annotations" type="jar" ext="jar" status="no" details="" size="265130" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.hibernate\hibernate-annotations\jars\hibernate-annotations-3.3.0.ga.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.hibernate/hibernate-annotations/jars/hibernate-annotations-3.3.0.ga.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.dom4j" name="dom4j">
+			<revision name="1.6.1" status="release" pubdate="20121121152522" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="56">
+				<metadata-artifact status="no" details="" size="387" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.dom4j\dom4j\ivy-1.6.1.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.dom4j\dom4j\ivy-1.6.1.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.dom4j/dom4j/ivys/ivy-1.6.1.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="dom4j" type="jar" ext="jar" status="no" details="" size="313898" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.dom4j\dom4j\jars\dom4j-1.6.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.dom4j/dom4j/jars/dom4j-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-jxpath">
+			<revision name="1.3" status="release" pubdate="20121121152647" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="38">
+				<metadata-artifact status="no" details="" size="404" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-jxpath\ivy-1.3.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-jxpath\ivy-1.3.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/commons-jxpath/ivys/ivy-1.3.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="commons-jxpath" type="jar" ext="jar" status="no" details="" size="299994" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-jxpath\jars\commons-jxpath-1.3.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/commons-jxpath/jars/commons-jxpath-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="j2ee" name="persistence-api">
+			<revision name="1.0" status="release" pubdate="20121121152609" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="23">
+				<metadata-artifact status="no" details="" size="400" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\j2ee\persistence-api\ivy-1.0.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\j2ee\persistence-api\ivy-1.0.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/j2ee/persistence-api/ivys/ivy-1.0.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="persistence-api" type="jar" ext="jar" status="no" details="" size="52150" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\j2ee\persistence-api\jars\persistence-api-1.0.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/j2ee/persistence-api/jars/persistence-api-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="j2ee" name="jta">
+			<revision name="1.0.1B" status="release" pubdate="20121121152418" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="22">
+				<metadata-artifact status="no" details="" size="379" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\j2ee\jta\ivy-1.0.1B.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\j2ee\jta\ivy-1.0.1B.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/j2ee/jta/ivys/ivy-1.0.1B.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.0.1B" rev-constraint-default="1.0.1B" rev-constraint-dynamic="1.0.1B" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="jta" type="jar" ext="jar" status="no" details="" size="8812" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\j2ee\jta\jars\jta-1.0.1B.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/j2ee/jta/jars/jta-1.0.1B.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="steel-daf-lib">
+			<revision name="2.0.23" status="release" pubdate="20121213225121" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="11">
+				<metadata-artifact status="no" details="" size="405" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\steel-daf-lib\ivy-2.0.23.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\steel-daf-lib\ivy-2.0.23.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/com.99bill/steel-daf-lib/ivys/ivy-2.0.23.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="2.0.23" rev-constraint-default="2.0.23" rev-constraint-dynamic="2.0.23" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="steel-daf-lib" type="jar" ext="jar" status="no" details="" size="82810" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\steel-daf-lib\jars\steel-daf-lib-2.0.23.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/com.99bill/steel-daf-lib/jars/steel-daf-lib-2.0.23.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="steel-daf-inf">
+			<revision name="2.0.23" status="release" pubdate="20121213225120" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="10">
+				<metadata-artifact status="no" details="" size="405" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\steel-daf-inf\ivy-2.0.23.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\steel-daf-inf\ivy-2.0.23.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/com.99bill/steel-daf-inf/ivys/ivy-2.0.23.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="2.0.23" rev-constraint-default="2.0.23" rev-constraint-dynamic="2.0.23" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="steel-daf-inf" type="jar" ext="jar" status="no" details="" size="17444" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\steel-daf-inf\jars\steel-daf-inf-2.0.23.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/com.99bill/steel-daf-inf/jars/steel-daf-inf-2.0.23.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="steel-base-srv-lib">
+			<revision name="1.0.0" status="release" pubdate="20121213225115" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="9">
+				<metadata-artifact status="no" details="" size="414" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\steel-base-srv-lib\ivy-1.0.0.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\steel-base-srv-lib\ivy-1.0.0.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/com.99bill/steel-base-srv-lib/ivys/ivy-1.0.0.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="steel-base-srv-lib" type="jar" ext="jar" status="no" details="" size="15389" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\steel-base-srv-lib\jars\steel-base-srv-lib-1.0.0.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/com.99bill/steel-base-srv-lib/jars/steel-base-srv-lib-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="steel-base-srv-inf">
+			<revision name="1.0.0" status="release" pubdate="20121213225114" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="8">
+				<metadata-artifact status="no" details="" size="414" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\steel-base-srv-inf\ivy-1.0.0.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\steel-base-srv-inf\ivy-1.0.0.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/com.99bill/steel-base-srv-inf/ivys/ivy-1.0.0.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="steel-base-srv-inf" type="jar" ext="jar" status="no" details="" size="7425" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\steel-base-srv-inf\jars\steel-base-srv-inf-1.0.0.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/com.99bill/steel-base-srv-inf/jars/steel-base-srv-inf-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="if-quartz-framework-client">
+			<revision name="4.3.44.1" status="integration" pubdate="20121015133526" resolver="bill99_repository_buildbuffer" artresolver="bill99_repository_buildbuffer" downloaded="false" searched="false" default="false" conf="default" position="6">
+				<metadata-artifact status="no" details="" size="1543" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-quartz-framework-client\ivy-4.3.44.1.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-quartz-framework-client\ivy-4.3.44.1.xml.original" origin-is-local="false" origin-location="http://192.168.52.93/com.99bill/if-quartz-framework-client/ivys/ivy-4.3.44.1.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="4.3.44.1" rev-constraint-default="4.3.44.1" rev-constraint-dynamic="4.3.44.1" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="if-quartz-framework-client" type="jar" ext="jar" status="no" details="" size="42549" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-quartz-framework-client\jars\if-quartz-framework-client-4.3.44.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.93/com.99bill/if-quartz-framework-client/jars/if-quartz-framework-client-4.3.44.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf" name="ezmorph">
+			<revision name="1.0.6" status="release" pubdate="20121121152426" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="27">
+				<metadata-artifact status="no" details="" size="388" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\net.sf\ezmorph\ivy-1.0.6.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\net.sf\ezmorph\ivy-1.0.6.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/net.sf/ezmorph/ivys/ivy-1.0.6.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="ezmorph" type="jar" ext="jar" status="no" details="" size="86487" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\net.sf\ezmorph\jars\ezmorph-1.0.6.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/net.sf/ezmorph/jars/ezmorph-1.0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf" name="json-lib">
+			<revision name="2.3-jdk15" status="release" pubdate="20121121152426" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="28">
+				<metadata-artifact status="no" details="" size="394" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\net.sf\json-lib\ivy-2.3-jdk15.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\net.sf\json-lib\ivy-2.3-jdk15.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/net.sf/json-lib/ivys/ivy-2.3-jdk15.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="2.3-jdk15" rev-constraint-default="2.3-jdk15" rev-constraint-dynamic="2.3-jdk15" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="json-lib" type="jar" ext="jar" status="no" details="" size="151839" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\net.sf\json-lib\jars\json-lib-2.3-jdk15.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/net.sf/json-lib/jars/json-lib-2.3-jdk15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="if-notification">
+			<revision name="4.3.38" status="integration" pubdate="20120424130336" resolver="bill99_repository_buildbuffer" artresolver="bill99_repository_buildbuffer" downloaded="false" searched="false" default="false" conf="default" position="5">
+				<metadata-artifact status="no" details="" size="3447" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-notification\ivy-4.3.38.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-notification\ivy-4.3.38.xml.original" origin-is-local="false" origin-location="http://192.168.52.93/com.99bill/if-notification/ivys/ivy-4.3.38.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="4.3.38" rev-constraint-default="4.3.38" rev-constraint-dynamic="4.3.38" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="if-notification" type="jar" ext="jar" status="no" details="" size="240794" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-notification\jars\if-notification-4.3.38.jar">
+						<origin-location is-local="false" location="http://192.168.52.93/com.99bill/if-notification/jars/if-notification-4.3.38.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-httpclient">
+			<revision name="3.1" status="release" pubdate="20150129155748" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="36">
+				<metadata-artifact status="no" details="" size="438" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-httpclient\ivy-3.1.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-httpclient\ivys\ivy-3.1.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="commons-httpclient" type="jar" ext="jar" status="no" details="" size="260190" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-httpclient\jars\commons-httpclient-3.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/commons-httpclient/jars/commons-httpclient-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="if-mdp">
+			<revision name="4.3.42.1" status="integration" pubdate="20150430174316" resolver="bill99_repository_buildbuffer" artresolver="bill99_repository_buildbuffer" downloaded="false" searched="false" default="false" conf="default" position="4">
+				<metadata-artifact status="no" details="" size="2912" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-mdp\ivy-4.3.42.1.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-mdp\ivy-4.3.42.1.xml.original" origin-is-local="false" origin-location="http://192.168.52.93/com.99bill/if-mdp/ivys/ivy-4.3.42.1.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="4.3.42.1" rev-constraint-default="4.3.42.1" rev-constraint-dynamic="4.3.42.1" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="if-mdp" type="jar" ext="jar" status="no" details="" size="78948" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-mdp\jars\if-mdp-4.3.42.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.93/com.99bill/if-mdp/jars/if-mdp-4.3.42.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xerces" name="xercesImpl">
+			<revision name="2.6.2" status="release" pubdate="20121121152800" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="84">
+				<metadata-artifact status="no" details="" size="394" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\xerces\xercesImpl\ivy-2.6.2.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\xerces\xercesImpl\ivy-2.6.2.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/xerces/xercesImpl/ivys/ivy-2.6.2.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="xercesImpl" type="jar" ext="jar" status="no" details="" size="1010675" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\xerces\xercesImpl\jars\xercesImpl-2.6.2.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/xerces/xercesImpl/jars/xercesImpl-2.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.jms" name="jms">
+			<revision name="6.0" status="release" pubdate="20130913180107" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="25">
+				<metadata-artifact status="no" details="" size="381" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\javax.jms\jms\ivy-6.0.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\javax.jms\jms\ivy-6.0.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/javax.jms/jms/ivys/ivy-6.0.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="6.0" rev-constraint-default="6.0" rev-constraint-dynamic="6.0" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="jms" type="jar" ext="jar" status="no" details="" size="25998" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\javax.jms\jms\jars\jms-6.0.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/javax.jms/jms/jars/jms-6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="if-framework">
+			<revision name="4.2.7" status="release" pubdate="20121121154430" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="3">
+				<metadata-artifact status="no" details="" size="402" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-framework\ivy-4.2.7.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-framework\ivy-4.2.7.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/com.99bill/if-framework/ivys/ivy-4.2.7.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="4.2.7" rev-constraint-default="4.2.7" rev-constraint-dynamic="4.2.7" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="if-framework" type="jar" ext="jar" status="no" details="" size="198725" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-framework\jars\if-framework-4.2.7.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/com.99bill/if-framework/jars/if-framework-4.2.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="if-enumhelper">
+			<revision name="4.3.1" status="release" pubdate="20121121154410" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="2">
+				<metadata-artifact status="no" details="" size="404" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-enumhelper\ivy-4.3.1.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-enumhelper\ivy-4.3.1.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/com.99bill/if-enumhelper/ivys/ivy-4.3.1.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="4.3.1" rev-constraint-default="4.3.1" rev-constraint-dynamic="4.3.1" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="if-enumhelper" type="jar" ext="jar" status="no" details="" size="212239" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-enumhelper\jars\if-enumhelper-4.3.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/com.99bill/if-enumhelper/jars/if-enumhelper-4.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.99bill" name="if-acms-client">
+			<revision name="4.3.53" status="integration" pubdate="20120903162740" resolver="bill99_repository_buildbuffer" artresolver="bill99_repository_buildbuffer" downloaded="false" searched="false" default="false" conf="default" position="1">
+				<metadata-artifact status="no" details="" size="2024" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-acms-client\ivy-4.3.53.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-acms-client\ivy-4.3.53.xml.original" origin-is-local="false" origin-location="http://192.168.52.93/com.99bill/if-acms-client/ivys/ivy-4.3.53.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="4.3.53" rev-constraint-default="4.3.53" rev-constraint-dynamic="4.3.53" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="if-acms-client" type="jar" ext="jar" status="no" details="" size="41287" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\if-acms-client\jars\if-acms-client-4.3.53.jar">
+						<origin-location is-local="false" location="http://192.168.52.93/com.99bill/if-acms-client/jars/if-acms-client-4.3.53.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.tibco" name="tibjms">
+			<revision name="6.0.0" status="release" pubdate="20121121152824" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="19">
+				<metadata-artifact status="no" details="" size="389" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.tibco\tibjms\ivy-6.0.0.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.tibco\tibjms\ivy-6.0.0.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/com.tibco/tibjms/ivys/ivy-6.0.0.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="6.0.0" rev-constraint-default="6.0.0" rev-constraint-dynamic="6.0.0" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="tibjms" type="jar" ext="jar" status="no" details="" size="327530" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.tibco\tibjms\jars\tibjms-6.0.0.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/com.tibco/tibjms/jars/tibjms-6.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.caucho" name="hessian">
+			<revision name="3.1.6" status="release" pubdate="20121121152407" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="13">
+				<metadata-artifact status="no" details="" size="392" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.caucho\hessian\ivy-3.1.6.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.caucho\hessian\ivy-3.1.6.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/com.caucho/hessian/ivys/ivy-3.1.6.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.1.6" rev-constraint-default="3.1.6" rev-constraint-dynamic="3.1.6" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="hessian" type="jar" ext="jar" status="no" details="" size="277038" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.caucho\hessian\jars\hessian-3.1.6.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/com.caucho/hessian/jars/hessian-3.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.5.8" status="release" pubdate="20121121152837" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="65">
+				<metadata-artifact status="no" details="" size="395" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.slf4j\slf4j-api\ivy-1.5.8.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.slf4j\slf4j-api\ivy-1.5.8.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.slf4j/slf4j-api/ivys/ivy-1.5.8.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.5.8" rev-constraint-default="1.5.8" rev-constraint-dynamic="1.5.8" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="23445" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.slf4j\slf4j-api\jars\slf4j-api-1.5.8.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.slf4j/slf4j-api/jars/slf4j-api-1.5.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-log4j12">
+			<revision name="1.5.8" status="release" pubdate="20121121152736" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="66">
+				<metadata-artifact status="no" details="" size="403" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.slf4j\slf4j-log4j12\ivy-1.5.8.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.slf4j\slf4j-log4j12\ivy-1.5.8.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.slf4j/slf4j-log4j12/ivys/ivy-1.5.8.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.5.8" rev-constraint-default="1.5.8" rev-constraint-dynamic="1.5.8" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="slf4j-log4j12" type="jar" ext="jar" status="no" details="" size="9679" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.slf4j\slf4j-log4j12\jars\slf4j-log4j12-1.5.8.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.5.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="log4j">
+			<revision name="1.2.14" status="release" pubdate="20121121152807" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="45">
+				<metadata-artifact status="no" details="" size="389" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\log4j\ivy-1.2.14.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\log4j\ivy-1.2.14.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/log4j/ivys/ivy-1.2.14.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.2.14" rev-constraint-default="1.2.14" rev-constraint-dynamic="1.2.14" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="log4j" type="jar" ext="jar" status="no" details="" size="367444" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\log4j\jars\log4j-1.2.14.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/log4j/jars/log4j-1.2.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus" name="jackson-all">
+			<revision name="1.9.2" status="release" pubdate="20121121152652" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="55">
+				<metadata-artifact status="no" details="" size="402" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.codehaus\jackson-all\ivy-1.9.2.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.codehaus\jackson-all\ivy-1.9.2.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.codehaus/jackson-all/ivys/ivy-1.9.2.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.9.2" rev-constraint-default="1.9.2" rev-constraint-dynamic="1.9.2" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="jackson-all" type="jar" ext="jar" status="no" details="" size="1107440" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.codehaus\jackson-all\jars\jackson-all-1.9.2.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.codehaus/jackson-all/jars/jackson-all-1.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20121121152505" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="34">
+				<metadata-artifact status="no" details="" size="416" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-collections\ivy-3.2.1.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-collections\ivy-3.2.1.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/commons-collections/ivys/ivy-3.2.1.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-collections\jars\commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/commons-collections/jars/commons-collections-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache" name="commons-beanutils">
+			<revision name="1.8.0" status="release" pubdate="20121121152833" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="31">
+				<metadata-artifact status="no" details="" size="412" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-beanutils\ivy-1.8.0.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-beanutils\ivy-1.8.0.xml.original" origin-is-local="false" origin-location="http://192.168.52.211/org.apache/commons-beanutils/ivys/ivy-1.8.0.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="1.8.0" rev-constraint-default="1.8.0" rev-constraint-dynamic="1.8.0" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="commons-beanutils" type="jar" ext="jar" status="no" details="" size="231320" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\org.apache\commons-beanutils\jars\commons-beanutils-1.8.0.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/org.apache/commons-beanutils/jars/commons-beanutils-1.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="antlr" name="antlr">
+			<revision name="2.7.6" status="release" pubdate="20150129155744" resolver="bill99_repository.public" artresolver="bill99_repository.public" downloaded="false" searched="false" default="true" conf="default" position="0">
+				<metadata-artifact status="no" details="" size="409" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\antlr\antlr\ivy-2.7.6.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\antlr\antlr\ivys\ivy-2.7.6.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="compile" rev="2.7.6" rev-constraint-default="2.7.6" rev-constraint-dynamic="2.7.6" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="antlr" type="jar" ext="jar" status="no" details="" size="443432" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\antlr\antlr\jars\antlr-2.7.6.jar">
+						<origin-location is-local="false" location="http://192.168.52.211/antlr/antlr/jars/antlr-2.7.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

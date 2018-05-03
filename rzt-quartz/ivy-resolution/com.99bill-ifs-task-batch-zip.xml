@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.99bill"
+		module="ifs-task-batch"
+		revision="working@raozt-PC"
+		conf="zip"
+		confs="default, compile, zip, test"
+		date="20171218204235"/>
+	<dependencies>
+		<module organisation="com.99bill" name="ifs-credit-bank-common">
+			<revision name="1.0.0.3" status="integration" pubdate="20160315155427" resolver="bill99_repository_buildbuffer" artresolver="bill99_repository_buildbuffer" downloaded="false" searched="false" default="false" conf="default" position="0">
+				<metadata-artifact status="no" details="" size="2777" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\ifs-credit-bank-common\ivy-1.0.0.3.xml" searched="false" original-local-location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\ifs-credit-bank-common\ivy-1.0.0.3.xml.original" origin-is-local="false" origin-location="http://192.168.138.16/com.99bill/ifs-credit-bank-common/ivys/ivy-1.0.0.3.xml"/>
+				<caller organisation="com.99bill" name="ifs-task-batch" conf="zip" rev="1.0.0.3" rev-constraint-default="1.0.0.3" rev-constraint-dynamic="1.0.0.3" callerrev="working@raozt-PC"/>
+				<artifacts>
+					<artifact name="ifs-credit-bank-common" type="jar" ext="jar" status="no" details="" size="32341" time="0" location="E:\99BILL\ivy-repository\repository\ivy-cache\ivy-cache\com.99bill\ifs-credit-bank-common\jars\ifs-credit-bank-common-1.0.0.3.jar">
+						<origin-location is-local="false" location="http://192.168.138.16/com.99bill/ifs-credit-bank-common/jars/ifs-credit-bank-common-1.0.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

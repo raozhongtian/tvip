@@ -1,0 +1,34 @@
+<project name="ifs-task-batch" default="" xmlns:ivy="antlib:org.apache.ivy.ant">
+	<import file="${buildscripts.dir}/common-app.xml" />
+	<!-- ================================= 
+	          target: deploy              
+	         ================================= -->
+	<property name="deploy.target.host" value="192.168.55.178"/>
+		<property name="deploy.target.java" value="/opt/oracle/product/10.1.3.1/OracleAS/jdk/bin/java"/>
+		<property name="deploy.target.user" value="oracle"/>
+		<property name="deploy.target.password" value="oracle"/>
+		<property name="deploy.target.contextroot" value="ddpcore"/>
+		<property name="deploy.target.oc4juser" value="oc4jadmin"/>
+		<property name="deploy.target.oc4jpassword" value="oracle1"/>
+		<property name="deploy.target.oc4jdeployer" value="oc4j:opmn://localhost/t.test/home"/>
+	
+	<target name="deploy" description="--> clean the project">
+		<scp todir="${deploy.target.user}:${deploy.target.password}@${deploy.target.host}:/tmp/deploy" trust="true">
+			<fileset dir="${release.dir}">
+				<include name="${ant.project.name}-${publish.version}.war" />
+			</fileset>
+		</scp>
+		<antcall target="undeploy" />
+		<sshexec username="${deploy.target.user}" password="${deploy.target.password}" host="${deploy.target.host}" trust="true"
+			command="${deploy.target.java} -jar /opt/oracle/product/10.1.3.1/OracleAS/j2ee/home/admin_client.jar deployer:${deploy.target.oc4jdeployer} ${deploy.target.oc4juser} ${deploy.target.oc4jpassword} -deploy -file /tmp/deploy/${ant.project.name}-${publish.version}.war -deploymentName ${deploy.target.contextroot} -contextRoot ${deploy.target.contextroot} -bindAllWebApps"
+		/>
+	</target>
+
+	<target name="undeploy" depends="" description="description">
+		<sshexec username="${deploy.target.user}" password="${deploy.target.password}" host="${deploy.target.host}" trust="true" failonerror="no" 
+		command="${deploy.target.java} -jar /opt/oracle/product/10.1.3.1/OracleAS/j2ee/home/admin_client.jar deployer:${deploy.target.oc4jdeployer} ${deploy.target.oc4juser} ${deploy.target.oc4jpassword}  -undeploy ${deploy.target.contextroot}"
+		/>
+	</target>
+
+
+</project>

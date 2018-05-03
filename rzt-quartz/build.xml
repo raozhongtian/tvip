@@ -1,0 +1,3 @@
+<project name="ifs-task-batch" default="all" xmlns:ivy="antlib:org.apache.ivy.ant">
+	<import file="${buildscripts.dir}/common-jar-targets.xml" />
+</project>
