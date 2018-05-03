@@ -8,7 +8,7 @@
 		http://www.springframework.org/schema/context
 		http://www.springframework.org/schema/context/spring-context-3.0.xsd">
    
-	<!-- 11111111111111线程执行器配置，用于任务注册 可以不配置使用spring默认 -->
+	<!-- 2211111111111111线程执行器配置，用于任务注册 可以不配置使用spring默认 -->
 	<bean id="executor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
 		<property name="corePoolSize" value="10" />
 		<property name="maxPoolSize" value="100" />
